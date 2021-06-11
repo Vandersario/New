@@ -4,8 +4,5 @@ from . import views
 
 
 urlpatterns=[
-    path('',views.post_list,name='post_list'),
-    path('Cveti/<int:pk>',views.post_detail,name='post_detail'),
-    path('Cveti/new/',views.post_new,name='post_new'),
-    path('catalog/',views.catalog,name='catalog')
+    path('',views.mainn,name='mainn'),
 ]
