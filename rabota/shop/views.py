@@ -23,4 +23,7 @@ def post_new(request):
     else:
         form = PostForm()
     return render(request, 'blog/post_new.html', {'form': form})
+
+def catalog(request):
+    return render(request,'blog/katalog.html',{})
 # Create your views here.
